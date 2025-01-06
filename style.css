@@ -105,3 +105,16 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+.lawyer-profile p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.lawyer-profile p strong {
+    font-weight: bold;
+}
+
+.lawyer-profile p:nth-child(4) {
+    font-style: italic;  /* Make the 'Experience' line italic for emphasis */
+    color: #2a7db2;  /* Optional: Blue color for experience */
+}
