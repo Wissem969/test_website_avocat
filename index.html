@@ -1,95 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find a Lawyer - Professional Legal Services</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="24/7 Online Legal Consultation - Get legal advice instantly from certified professionals ">
+  <title>Legal Consultation 24/7</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>Find a Lawyer</h1>
-            <nav>
-                <ul>
-                    <li><a href="#search">Search</a></li>
-                    <li><a href="#lawyers">Lawyers</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!-- Header Section -->
+  <header>
+    <div class="container header-content">
+      <img src="logo.png" alt="Legal Consultation 24/7" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="contact-info">
+        <p>+216 98 576 034</p>
+        <p><a href="mailto:benjeddouavo@yahoo.fr">benjeddouavo@yahoo.fr</a></p>
+      </div>
+    </div>
+  </header>
 
-    <section id="search" class="section search">
-        <div class="container">
-            <h2>Find a Lawyer for Your Legal Issue</h2>
-            <form id="search-form">
-                <input type="text" placeholder="Enter a legal topic or lawyer's name" id="search-input">
-                <button type="submit">Search</button>
-            </form>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Instant Legal Advice 24/7</h1>
+      <p>Get your legal questions answered by certified professionals with more than 30 years experience in under 24 hours.</p>
+      <button id="cta-btn">Get Legal Help Now</button>
+    </div>
+  </section>
 
-    <section id="lawyers" class="section">
-        <div class="container">
-            <h2>Top Lawyers</h2>
-            <div class="lawyer-list">
-                <!-- Example Lawyer Profile -->
-                <div class="lawyer-profile">
-                    <img src="https://via.placeholder.com/100" alt="Lawyer">
-                    <div>
-                        <h3>John Doe</h3>
-                        <p><strong>Specialization:</strong> Family Law, Divorce</p>
-                        <p><strong>Location:</strong> New York, NY</p>
-                        <p><strong>Experience:</strong> More than 30 years of experience</p>
-                        <a href="#contact" class="contact-btn">Contact</a>
-                    </div>
-                </div>
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-item">
+        <h3>Contract Review</h3>
+        <p>We provide detailed analysis of your contracts and agreements.</p>
+      </div>
+      <div class="service-item">
+        <h3>Business Startup Advice</h3>
+        <p>Legal advice for entrepreneurs to establish your business legally.</p>
+      </div>
+      <div class="service-item">
+        <h3>Intellectual Property</h3>
+        <p>Protect your brand and ideas with expert IP legal advice.</p>
+      </div>
+      <div class="service-item">
+        <h3>Employment Law</h3>
+        <p>Guidance on employment contracts, workplace policies, and employee rights. Help with navigating employment disputes, wrongful termination, and workplace discrimination claims.</p>
+      </div>
+      <div class="service-item">
+        <h3>Mergers & Acquisitions (M&A)</h3>
+        <p>Legal assistance in buying, selling, or merging businesses, including due diligence, negotiation, and drafting of purchase agreements.
+        </p>
+      </div>
+      <div class="service-item">
+        <h3>Corporate Governance</h3>
+        <p>Advice on the formation and structure of boards of directors, shareholder agreements, and compliance with corporate regulations and policies.</p>
+      </div>
+      <div class="service-item">
+        <h3>Real Estate Law</h3>
+        <p>Assistance with property transactions, leases, zoning, and land use issues, as well as disputes related to real estate ownership or tenancy.</p>
+      </div>
+      <div class="service-item">
+        <h3>Tax Law</h3>
+        <p>Offering advice on tax planning, tax disputes, corporate tax strategies, and international taxation matters to minimize liabilities and maximize compliance.</p>
+      </div>
+      <div class="service-item">
+        <h3>Litigation & Dispute Resolution</h3>
+        <p>Representing clients in legal disputes, including contract disputes, personal injury claims, and professional malpractice suits. Offering mediation and arbitration services to resolve conflicts without court involvement.</p>
+      </div>
+      <!-- Add more services as needed -->
+    </div>
+  </section>
 
-                <!-- Another Example Lawyer Profile -->
-                <div class="lawyer-profile">
-                    <img src="https://via.placeholder.com/100" alt="Lawyer">
-                    <div>
-                        <h3>Jane Smith</h3>
-                        <p><strong>Specialization:</strong> Criminal Law, Defense</p>
-                        <p><strong>Location:</strong> Los Angeles, CA</p>
-                        <p><strong>Experience:</strong> More than 30 years of experience</p>
-                        <a href="#contact" class="contact-btn">Contact</a>
-                    </div>
-                </div>
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="container">
+      <h2>Affordable Legal Consultation</h2>
+      <p>Fixed price of <strong>€119</strong> for a complete consultation.</p>
+      <button id="cta-btn-pricing">Get Legal Help Now</button>
+    </div>
+  </section>
 
-                <!-- Additional lawyer profiles can be added here following the same structure -->
-            </div>
-        </div>
-    </section>
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <div class="container">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial">
+        <p>"Fantastic service! My case was resolved within hours. Highly recommend!"</p>
+        <p>- John Doe</p>
+      </div>
+      <div class="testimonial">
+        <p>"The lawyers were very professional and gave clear advice. Saved me a lot of stress!"</p>
+        <p>- Jane Smith</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Lawyer Services | All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Legal Consultation 24/7 | All rights reserved</p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </div>
+  </footer>
 </body>
+
 </html>
